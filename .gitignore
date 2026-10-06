@@ -1,0 +1,25 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+*.env
+
+# Documentación personal
+docs_personal/
