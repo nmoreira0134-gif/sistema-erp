@@ -93,6 +93,10 @@ const Menu = {
             case 'SEG_ROLES':
                 RolesView.render();
                 break;
+            case 'VEN_CLIENTES':
+            case 'CLI_CLIENTES':
+                ClientesView.render();
+                break;
             default:
                 UI.renderVistaEnConstruccion(codigoPantalla);
                 break;
